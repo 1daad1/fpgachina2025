@@ -1,0 +1,10 @@
+project_root/
+├── src/                    # 源代码目录
+│   ├── rtl/               # RTL代码
+│   │   ├── system.v   # 顶层模块
+│   │   ├── pic_select.v/pid_controller.v/step.v          # 核心模块
+│   │   └── uart_rx.v/error.v/pic.v/pid_crtl.v         # 工具模块
+│   ├── constraints/       # 约束文件
+│   │   └── pin.xdc
+│   ├── testbench/         # 测试文件
+│   │   └── tb_pic.v/pid_controller_tb.v/tb_uart_rx.v
